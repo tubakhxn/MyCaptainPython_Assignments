@@ -25,7 +25,6 @@ def printChar(arr, Len):
       
         print(f"{arg_max} - {currentMax}")
   
-        # Delete the maximum value
         occ.pop(arg_max)
         size -= 1
  
